@@ -10,10 +10,70 @@
 
 .IndexImage{
 
-    width:100px !important;
-    height:100px !important;
+    width:80px !important;
+    height:80px !important;
     background-image:url(../images/logo.png);
     background-position:center;
     background-size:cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    flex-direction: column;
+
+}
+
+.IndexImage p{
+
+    color:#FFFFFF;
+    font-family:caviarDreamsBold;
+    font-size:22px;
+    position: relative;
+    left:110%;
+
+}
+
+.ThisMenuElement{
+
+    color:#7668AF !important;
+    font-family:caviarDreamsBold;
+    font-size:17px !important;
+
+}
+
+.FormatText{
+
+    font-family:caviarDreamsBold;
+
+
+}
+
+
+::-webkit-scrollbar{
+
+    width:5px;
+    background-color:transparent ;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    width:7px;
+    background-color:#7668AF;
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-corner{
+
+    display:none;
+    opacity:0;
+
+}
+
+
+footer{
+
+    font-family:caviarDreams !important;
 
 }

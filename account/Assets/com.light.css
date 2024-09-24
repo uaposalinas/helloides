@@ -1,0 +1,242 @@
+.theme{
+
+    background-color:#e4e4e4;
+
+}
+
+.theme main{
+
+    background-color:#e4e4e4;
+
+
+}
+
+.theme .IndexPage{
+
+    background-color:#e4e4e4;
+
+}
+
+.theme header{
+
+    background-color: #e4e4e4;
+
+}
+
+.theme header t{
+
+    color:#020200;
+
+}
+
+.theme .Preloader{
+
+    background-color: #e4e4e4;
+    color:#020200;
+
+}
+
+.theme .Notifications{
+
+    background-image:url(notification-dark.png);
+
+}
+
+.theme::-webkit-scrollbar{
+
+    width:4px;
+    background-color: #e5e4e9;
+
+}
+
+.theme::-webkit-scrollbar-thumb{
+
+    width:4px;
+    background-color:#000000;
+    border-radius:10px;
+
+}
+
+.theme .Contains{
+
+    background-color: #ffffff;
+    color:#000000;
+
+}
+
+.theme .Contains .Bodys i{
+
+    color:#FFFFFF;
+
+}
+
+.theme .ListItem{
+
+    border-bottom:1px solid #ededed;
+
+}
+
+.theme .Title{
+
+    color:#000000;
+
+}
+
+.theme .ActionsInMobile .Item{
+
+    background-color:#FFFFFF;
+    color:#000000
+
+}
+
+.theme .ActionsInMobile .Group{
+
+    background-color:#FFFFFF;
+    color:#000000
+
+}
+
+.theme .ActionsInMobile .Group .GroupItem{
+
+    border-bottom:1px solid #ededed;
+
+}
+
+.theme .Render{
+
+    color:#000000;
+    border:1px solid #a6a4d5;
+    background-color: #f3f4fa;
+
+}
+
+.theme .SearchBarContainer{
+
+    background-color: #FFFFFF;
+    color:#828187;
+
+}
+
+.theme .Contains .icon i{
+
+    color:#FFFFFF;
+
+}
+
+.theme .ActionButton{
+
+    border:1px solid #70639f;
+    color:#70639f;
+
+}
+
+.theme .Links{
+
+    background-color: transparent;
+
+}
+
+.theme .CopyrightInfo .Links div:hover{
+
+    color:#000000;
+
+}
+
+.theme .SocialMedia div i{
+
+    color:#6a6a6c;
+
+}
+
+.theme .CategoryTitle{
+
+    color:#000000;
+
+}
+
+.theme input{
+
+    color:#000000;
+
+}
+
+.theme .Renderer{
+
+    background-color:#e4e4e4;
+
+}
+
+
+.theme .SearchBarContainer .icon{
+
+    color:#000000;
+
+}
+
+.theme .Menu .ItemsContainer div p{
+
+    color:#000000;
+
+}
+
+.theme .Menu .ItemsContainer div i, .theme .Menu .ItemsContainer div t{
+
+    color:#000000;
+
+}
+
+.theme .Account .Content div header{
+
+    background-color:#FFFFFF;
+    color:#000000;
+
+}
+
+.theme .Account .Content div header i, .theme .Account .Content div header t, .theme .Account .Menu t{
+
+    color:#000000;
+
+}
+
+.theme .SendDescription{
+
+    color:#000000;
+
+}
+
+.theme .ControlForm label{
+
+    color:#000000
+
+}
+
+.theme .HostPlan .Data ion-icon{
+
+    color:#000000;
+
+}
+
+.theme .HostPlan .Data .SeeMorePlanes{
+
+    color:#FFFFFF;
+
+}
+
+.theme .AddCard{
+
+    background-image:url(AddCardLight.png);
+
+}
+
+.theme .BackButton i{
+
+    color:#000000;
+
+}
+
+.theme .BackButton i:hover{
+
+    color:#59595b;
+
+
+}

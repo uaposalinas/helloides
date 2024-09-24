@@ -1,0 +1,701 @@
+
+
+@media screen and (max-width:1200px){
+
+    i{
+
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+    
+    }
+
+    body{
+
+        overflow-y:hidden;
+
+    }
+
+    .IndexPage{
+
+        top:10px;
+        overflow-y: scroll;
+        overflow-x:hidden;
+
+    }
+
+    .ProfilePhoto{
+
+        display:none;
+
+    }
+
+    .ProfilePhotoIcon{
+
+        display:none;
+
+    }
+
+    .Notifications{
+
+        right: 15px;
+
+    }
+
+    .SearchBarContainer{
+
+        width:325px;
+        left:15px
+
+    }
+
+    .imogi{
+
+        position: absolute;
+        margin-top:20px;
+        bottom: 0px;
+    
+    
+    }
+
+    .imogi i{
+
+        color:#7668AF;
+        font-size:30px;
+    
+    }
+
+    header t{
+
+        display:none;
+
+    }
+
+    header .Logo{
+
+        display:none;
+
+    }
+
+    .ClientInfo .Container{
+
+        width:90%;
+
+    }
+
+    .AccountInfo{
+
+        width:95%;
+        height:80px;
+        left:calc(2.5%);
+        cursor: default;
+        top:100px
+
+    }
+    .AccountInfoProfilePhoto{
+
+        width:65px;
+        height:65px;
+        position:absolute;
+        left:15px;
+        top:7.5px;
+
+    }
+
+    .AccountInfo t{
+
+        font-size: 18px;
+        position:absolute;
+        left:100px;
+        top:18px;
+
+    }
+
+    .AccountInfo p{
+
+        position:absolute;
+        bottom:15px;
+        left:100px;
+
+    }
+
+    .Chevron{
+
+        display:flex;
+        position:absolute;
+        right: 20px;
+        color:#59595b;
+        font-size:25px;
+
+    }
+
+ 
+    .Services{
+
+        width:95%;
+        height:100px;
+        position:absolute;
+        top:415px;
+        right:2.5%;
+
+    }
+
+    .Services .Body{
+
+        display:none;
+
+    }
+
+    .Services .Bodys{
+
+        display:none;
+
+    }
+
+    .Services .Header{
+
+        display: none;
+
+    }
+
+    .Services .Headers{
+
+        display: none;
+
+    }
+
+    .Services .List{
+
+        width:100%;
+        height:100%;
+        position:relative;
+        display:block;
+
+    }
+
+    .noborder{
+
+        width:100%;
+        height:50%;
+        position:relative;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+
+    }
+
+    .ListItem{
+
+        width:100%;
+        height:50%;
+        border-bottom:1px solid #242426;
+        position:relative;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+     
+    }
+
+    .EnListIcon .icon{
+
+        width: 30px;
+        height:30px;
+        background-position:center;
+        background-size:cover;
+        position:absolute;
+        left:15px;
+        top:10px;
+
+    }
+
+    .EnListIcon p{
+
+        position:absolute;
+        left:60px;
+
+    }
+
+    .EnListIcon i{
+
+        position:absolute;
+        right: 15px;
+        color:#58585a;
+        font-size:20px;
+
+    }
+
+    .QuickSettings{
+
+        display:none;
+
+    }
+    
+    .Notification{
+
+        top:200px;
+      
+
+    }
+
+    .Render{
+
+        height:180px;
+
+    }
+
+    .Render p{
+
+        position:absolute;
+        left:20px;
+        margin-right:22px;
+        text-align:justify;
+
+    }
+
+    .MoreInformation{
+
+        position:absolute;
+        left:20px;
+
+    }
+
+    
+    .ActionsInMobile{
+
+        width:100%;
+        height: 2500px;
+        position: absolute;
+        top:522px;
+        display:flex;
+
+    }
+
+    .ActionsInMobile .Title{
+
+        position:absolute;
+        left:25px;
+        font-size:18px;
+
+    }
+
+    .Item{
+
+        width:95%;
+        height:40px;
+        position:absolute;
+        background-color: #1c1c1e;
+        border-radius:20px;
+        left:2.5%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+
+    }
+
+    .Item .icon{
+
+        width:20px;
+        height:20px;
+        position:absolute;
+        left:15px;
+        background-position:center;
+        background-size:cover;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+
+    }
+
+    .Item p{
+
+        position:absolute;
+        left:50px;
+
+    }
+
+    .Item .chev{
+
+        position:absolute;
+        right: 15px;
+        color:#58585a;
+        font-size:20px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+
+    }
+
+    .Group{
+
+        width:95%;
+        height:auto;
+        min-height:40px;
+        background-color: #1c1c1e;
+        border-radius:20px;
+        position:absolute;
+        left:2.5%;
+
+    }
+
+    .GroupItem{
+        
+        width:100%;
+        height:50px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+        border-bottom:1px solid #242426;
+
+    }
+
+    .GroupItem:last-child{
+
+        border-bottom:none;
+
+    }
+
+    .chev{
+
+        position:absolute;
+        right: 15px;
+        color:#58585a;
+        font-size:20px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+
+    }
+
+    .chevleft{
+
+        position:absolute;
+        right: 15px;
+        color:#58585a;
+        font-size:20px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+        transform: rotate(90deg);
+
+    }
+
+
+    
+
+    .GroupItem .icon{
+
+        width:20px;
+        height:20px;
+        position:absolute;
+        left:15px;
+        background-position:center;
+        background-size:cover;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+
+    }
+
+    .GroupItem p{
+
+        position:absolute;
+        left:50px;
+
+    }
+
+    .GroupItem .chev{
+
+        position:absolute;
+        right: 15px;
+        color:#58585a;
+        font-size:20px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+
+    }
+
+    .CopyrightInfo{
+        
+        position:absolute;
+        top:2300px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+
+    }
+
+    .CopyrightInfo .Links{
+        
+        display:none;
+
+    }
+
+    .RightsInfo{
+
+        position:absolute;
+        width:95%;
+        left:10px;
+        top:0px;
+
+    }
+
+    .MobileRightsInfo{
+
+        position:absolute;
+        width:95%;
+        left:10px;
+        top:0px;
+        padding-left:15px;
+        padding-right:15px;
+
+    }
+
+    .SocialMedia{
+
+        display:none;
+
+    }
+
+    .RightsInfo{
+
+        display: none;
+
+    }
+
+    .ReAuth{
+
+        position:fixed;
+        bottom:130px;
+
+    }
+
+    .Account .Menu{
+
+        display:none;
+
+    }
+
+    .Account .Content{
+
+        width:100%;
+        height:100%;
+        background-color: transparent;
+        position:absolute;
+        left:0px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+        flex:content;
+
+    }
+
+    .Account .Content .GeneralInfo header{
+
+        display: none;
+        background-color: #7668AF;
+
+    }
+
+    .Account .Content div .Data{
+
+        height:100%;
+
+    }
+
+    .EditProfilePhoto{
+
+        height:250px;
+        display:flex;
+        align-items:center;
+        text-align:center;
+        flex-direction:column;
+
+    }
+
+    .EditProfilePhoto .ShowCurrentProfilePhoto{
+
+        position: relative;
+        left:0;
+        
+    }
+
+    .EditProfilePhoto .Buttons{
+    
+        width:100%;
+        position:absolute;
+        left:0px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+        top:calc(100% - 100px)
+
+    }
+
+    .EditProfilePhoto .Buttons div{
+
+        width:120px;
+
+    }
+
+    .UpdateContactInfo{
+
+        position:absolute;
+        top:250px;
+        height:100%;
+
+    }
+
+    .Data .UpdateContactInfo .Buttonss{
+
+        width:90%;
+        height:40px;
+        position:absolute;
+        bottom:0px;
+        left:5%;
+        top:525px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+
+    }
+
+    .ControlForm input{
+
+        width: 85%;
+
+    }
+
+    .SendNewName{
+
+        position:absolute;
+        left:7.5%
+
+    }
+
+    .SendNewLastName{
+
+        position:absolute;
+        left:7.5%;
+        top:140px;  
+
+    }
+
+    .AccountType{
+
+        width:85%;
+        position:absolute;
+        left:7.5%;
+        background-color: transparent; 
+        display:none;
+
+    }
+
+    .ControlForm label{
+
+        position:absolute;
+        left:35px;
+
+    }
+
+    .LabelForUserKey{
+
+        top:195px;
+
+    }
+
+    .SendNewUserKey{
+
+        left:7.5%;
+        top:230px
+
+    }
+
+    .LabelForDescription{
+
+        top:284px;
+
+    }
+
+    .SendDescription{
+
+        top:320px;
+        left:7.5%;
+        width:85%;
+
+    }
+
+    .AccountType{
+
+        top:450px;
+        display:flex;
+
+    }
+
+    .BackButtonMobile{
+
+        position:absolute;
+        top:0px;
+        left:0px;
+        width:40px;
+        height:40px;
+        display:flex;
+        
+
+    }
+    
+    .BackButtonMobile i{
+    
+        width:100%;
+        height:100%;
+        color:#59595b;
+        font-size:30px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+    
+    }
+
+    .MobileActions{
+
+        display:flex;
+
+    }
+
+    .Account .Content div header{
+
+        display: none;
+
+    }
+
+    .DevLabsPay .Data{
+
+        position:absolute;
+        left:0px;
+
+    }
+
+    .Cards Card{
+
+        border:1px solid #58585a;
+        box-shadow: 2.5px 5px 5px 2.5px rgba(82, 81, 81, 0.5);
+
+    }
+
+}
