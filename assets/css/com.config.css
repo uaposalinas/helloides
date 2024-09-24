@@ -1,0 +1,19 @@
+
+*{
+
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+
+}
+
+
+.IndexImage{
+
+    width:100px !important;
+    height:100px !important;
+    background-image:url(../images/logo.png);
+    background-position:center;
+    background-size:cover;
+
+}
