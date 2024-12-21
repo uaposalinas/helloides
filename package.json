@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "dexpro": "^7.1.0",
+    "helloid": "^7.1.0"
+  }
+}
